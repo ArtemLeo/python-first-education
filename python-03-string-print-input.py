@@ -21,3 +21,9 @@ print('-----------------')
 name = 'John'
 age = 20
 print('Hello!\nMy name is ' + name + '.\nI`m ' + str(age) + ' years old!')
+print('-----------------')
+
+# input
+name = input('Enter your name: ')
+age = input('How old are you: ')
+print('Your name is ' + name + '.\nYou are ' + age + ' yeas old!\nWelcome ' + name + '!')
