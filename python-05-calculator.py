@@ -22,7 +22,7 @@ elif operation == '*':
     print('-----------------------------')
 elif operation == '/':
     if b != 0:
-        result = a * b
+        result = a / b
         print('RESULT = ' + str(result))
         print('-----------------------------')
     else:
