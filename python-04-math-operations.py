@@ -34,7 +34,7 @@ print('-------------')
 
 i = 10
 i = -i
-print('"i" = 10\nUnary minus of "i" = ' + str(i))
+print('"x" = 10\nUnary minus of "x" = ' + str(i))
 print('-------------')
 
 j = 1.2345
