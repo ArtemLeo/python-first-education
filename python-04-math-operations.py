@@ -1,4 +1,6 @@
 # Math operations: +, -, *, /, **, %, unary minus, rounding
+# Comparison operators: >, <, >=, <=, ==, !=
+
 import math
 
 a = 10
