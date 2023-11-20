@@ -1,5 +1,5 @@
 # Math operations: +, -, *, /, **, %, unary minus, rounding
-# Comparison operators: >, <, >=, <=, ==, !=
+# Comparison operators: >, <, >=, <=, ==, !=, lexical comparison
 
 import math
 
@@ -44,3 +44,8 @@ print('-------------')
 
 print('math.ceil of "j" = ' + str(math.ceil(j)))
 print('math.floor of "j" = ' + str(math.floor(j)))
+print('-------------')
+
+# Lexical comparison
+print('Lexical comparison: ')
+print('Test' > 'Text')
