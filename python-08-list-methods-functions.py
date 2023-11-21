@@ -1,4 +1,5 @@
-# List methods: append, remove, insert
+# List methods: append, insert, count, reverse, remove
+# List function: len, min, max, range
 
 list_example = [1, 2, 3, [0, 0, 0], 4, 5]
 print(list_example)
@@ -21,7 +22,7 @@ print('Show some index in string-list: ' + str(text[1]))
 print('-------------------------')
 
 # in (contain), not in
-numbers = [9, 2, 5, 7, 1, 8, 0]
+numbers = [9, 2, 5, 7, 1, 8, 0, 9, 3, 1]
 if 9 in numbers:
     print('Yes')
 else:
@@ -46,6 +47,16 @@ values.insert(2, 100)
 print('Insert 100 in list: ' + str(values))
 print('-------------------------')
 
+# count
+print('Count of 9 in list = ' + str(numbers.count(9)))
+print('-------------------------')
+
+# reverse
+print('Before reverse: ' + str(numbers))
+numbers.reverse()
+print('After reverse: ' + str(numbers))
+print('-------------------------')
+
 # remove
 values.remove(5)
 print('Remove some element: ' + str(values))
@@ -53,3 +64,10 @@ print('-------------------------')
 
 # length
 print('List length = ' + str(len(values)))
+print('-------------------------')
+
+# min, max
+print('Min value: ' + str(min(numbers)))
+print('Max value: ' + str(max(numbers)))
+
+# range
