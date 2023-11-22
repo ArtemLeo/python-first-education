@@ -1,5 +1,5 @@
 # List methods: append, insert, count, reverse, remove
-# List function: len, min, max, range
+# List function: len, min, max
 
 list_example = [1, 2, 3, [0, 0, 0], 4, 5]
 print(list_example)
@@ -69,5 +69,5 @@ print('-------------------------')
 # min, max
 print('Min value: ' + str(min(numbers)))
 print('Max value: ' + str(max(numbers)))
+print('-------------------------')
 
-# range

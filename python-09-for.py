@@ -1,0 +1,8 @@
+# For (loop/cycle)
+
+# range
+for i in range(11):
+    if i % 2 == 0:
+        print(i)
+    else:
+        continue
