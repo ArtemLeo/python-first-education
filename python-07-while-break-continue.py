@@ -6,7 +6,7 @@ x = 1
 while x <= 5:
     print('x = ' + str(x))
     x += 1
-print('----------')
+print('----------------------')
 
 # break
 y = 15
@@ -17,7 +17,7 @@ while True:
     y -= 1
     if y <= 1:
         break
-print('----------')
+print('----------------------')
 
 # continue
 i = 0
@@ -27,3 +27,11 @@ while i <= 10:
         print(i)
     else:
         continue
+print('----------------------')
+
+# walk of list
+numbers = [34, 12, 93, 48, 72]
+x = 0
+while x < len(numbers):
+    print(numbers[x])
+    x += 1
