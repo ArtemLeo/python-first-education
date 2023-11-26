@@ -55,3 +55,19 @@ x = int(input('Enter first number: '))
 y = int(input('Enter second number: '))
 result = show_max_number(x, y)
 print('Result of "show_max_number" method = ' + str(result))
+print('---------------------------')
+
+
+# method as an argument
+def show_name(name):
+    """Method show_name"""
+    print('Hi, ' + name + '!')
+
+
+def input_name():
+    name = input('Enter your name: ')
+    return name
+
+
+print(show_name.__doc__)
+show_name(input_name())
