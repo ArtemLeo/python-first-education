@@ -1,5 +1,5 @@
 # Data types
-# Names can´t start with a some number
+# Names types can´t start with a some number
 
 a = 5  # int (integer number)
 b = 3.14  # float (double number)
@@ -11,3 +11,11 @@ f = [5, 'hey', 10.5]  # list (ordered, mutable type)
 g = {'a', 'b', 'c'}  # set (unordered type, unique objects)
 h = {'key1': 'value', "key2": "value"}  # dict (dictionary) -> (unordered type -> key : value)
 
+print(type(a))
+print(type(b))
+print(type(c))
+print(type(d))
+print(type(e))
+print(type(f))
+print(type(g))
+print(type(h))
