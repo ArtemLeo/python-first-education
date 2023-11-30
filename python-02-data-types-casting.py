@@ -1,5 +1,6 @@
 # Data types
 # Names types can´t start with a some number
+# Type conversion / Casting: str(), int(), float()
 
 a = 5  # int (integer number)
 b = 3.14  # float (double number)
