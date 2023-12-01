@@ -9,12 +9,12 @@ for i in range(10):
 print('Random list: ' + str(list))
 
 
-def even_numbers(list_value):
-    even_list = []
+def even_num(list_values):
+    result = []
     for j in list:
         if j % 2 == 0:
-            even_list.append(j)
-    return even_list
+            result.append(j)
+    return result
 
 
-print('Even numbers list: ' + str(even_numbers(list)))
+print('Evens list: ' + str(even_num(list)))
