@@ -74,7 +74,7 @@ print(show_name.__doc__)
 show_name(input_name())
 print('---------------------------')
 
-# example
+# find body mass index
 name1 = 'John'
 height1 = 1.90
 weight1 = 82
