@@ -1,10 +1,10 @@
-# List methods: append, insert, count, reverse, remove
+# List methods: append, insert, count, reverse, remove, pop
 # List function: len, min, max
 
 list_example = [1, 2, 3, [0, 0, 0], 4, 5]
 print(list_example)
 
-# index output
+# output by index
 print(list_example[1])
 print(list_example[3][0])
 print('-------------------------')
@@ -12,8 +12,6 @@ print('-------------------------')
 # list + list
 another_list = list_example + [6, 7, 8, 9]
 print(another_list)
-
-print(list_example + another_list)
 print('-------------------------')
 
 # string
@@ -34,7 +32,7 @@ else:
     print('In')
 print('-------------------------')
 
-# append
+# append (add the value to the end of the list)
 values = []
 values.append('Hello')
 values.append(5)
@@ -42,12 +40,12 @@ values.append([1, 2, 3])
 print('Append elements in list: ' + str(values))
 print('-------------------------')
 
-# insert
+# insert (add a value to the list by index)
 values.insert(2, 100)
 print('Insert 100 in list: ' + str(values))
 print('-------------------------')
 
-# count
+# count (quantity of this value in the list)
 print('Count of 9 in list = ' + str(numbers.count(9)))
 print('-------------------------')
 
@@ -57,9 +55,14 @@ numbers.reverse()
 print('After reverse: ' + str(numbers))
 print('-------------------------')
 
-# remove
+# remove (delete by value, not by index)
 values.remove(5)
 print('Remove some element: ' + str(values))
+print('-------------------------')
+
+# pop (delete last list value pop() or by index pop(2))
+values.pop()
+print('pop = delete last list value ' + str(values))
 print('-------------------------')
 
 # length
@@ -70,4 +73,3 @@ print('-------------------------')
 print('Min value: ' + str(min(numbers)))
 print('Max value: ' + str(max(numbers)))
 print('-------------------------')
-
