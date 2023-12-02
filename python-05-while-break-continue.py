@@ -30,8 +30,11 @@ while i <= 10:
 print('----------------------')
 
 # walk of list
-numbers = [34, 12, 93, 48, 72]
-x = 0
-while x < len(numbers):
-    print(numbers[x])
-    x += 1
+numbers = [34, 12, -93, 48, 72, -4]
+i = 0
+sum = 0
+while i < len(numbers):
+    if numbers[i] < 0:
+        sum += numbers[i]
+    i += 1
+print(sum)
