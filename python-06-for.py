@@ -12,10 +12,15 @@ for j in range(1, 11, 2):
     print(j)
 print('--------------')
 
-# list walk
+# list walk (forEach)
 numbers = [20, 48, 91, 73, 37]
 for i in numbers:
     print('Value in list numbers: ' + str(i))
+print('--------------')
+
+# list walk (by index)
+for i in range(len(numbers)):
+    print('Value in list numbers: ' + str(numbers[i]))
 print('--------------')
 
 # reverse list walks (hard)
@@ -25,3 +30,9 @@ for i in range(len(list) - 1, -1, -1):
         break
     else:
         print(list[i])
+print('--------------')
+
+# nested loops
+for i in range(len(numbers)):
+    for j in range(i + 1):
+        print(numbers[i])
