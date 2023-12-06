@@ -1,5 +1,5 @@
 # List comprehension
-# Change current list
+# change current list
 a = [1, 2, 3, 4, 5]
 print('Current list: ' + str(a))
 
@@ -12,7 +12,7 @@ a2 = [i * 2 for i in a]  # list comprehension
 print('List create with list comprehension: ' + str(a2))
 print('------------------------------')
 
-# Create by range()
+# create by range()
 b1 = [i * 3 for i in range(1, 6)]  # list comprehension
 print('List create with list comprehension: ' + str(b1))
 
@@ -22,7 +22,7 @@ for i in range(1, 6):
 print('List create with for loop: ' + str(b2))
 print('------------------------------')
 
-# Element filtration
+# element filtration
 c = [1, 10, 12, 4, 3, 20, 55]
 c1 = []
 for i in c:
@@ -34,6 +34,6 @@ c2 = [i for i in c if i < 10]
 print('List create with list comprehension: ' + str(c2))
 print('------------------------------')
 
-# Combination (filtration + changing list elements)
+# combination (filtration + changing list elements)
 d = [i ** 2 for i in range(1, 10) if i > 5]
 print('List create with list comprehension: ' + str(d))
