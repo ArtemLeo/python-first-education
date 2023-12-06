@@ -73,3 +73,30 @@ print('-------------------------')
 print('Min value: ' + str(min(numbers)))
 print('Max value: ' + str(max(numbers)))
 print('-------------------------')
+
+# multidimensional lists
+multi_list = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+print(multi_list)
+print('Get element in multi-list: ' + str(multi_list[1][1]))
+print('-------------------------')
+
+# display multidimensional lists
+for list in multi_list:
+    print(list)
+print('-------------------------')
+
+for list in multi_list:
+    for element in list:
+        print(element, end=' ')
+    print()
+print('-------------------------')
+
+
+def display_multi_list(some_list):
+    for i in range(len(some_list)):
+        for j in range(len(some_list[i])):
+            print(some_list[i][j], end=' ')
+        print()
+
+
+display_multi_list(multi_list)
