@@ -1,5 +1,7 @@
 # Methods
+# Annotation of arguments
 # Operator "return"
+# Operator "pass"
 # """ Documentation comment """
 
 # create function (without arguments)
@@ -25,6 +27,12 @@ print(show_input_num.__doc__)
 number = float(input('Enter any number: '))
 show_input_num(number)
 print('---------------------------')
+
+
+# annotation of arguments
+# operator "pass"
+def show_annotation(name: str, age: int) -> int:
+    pass
 
 
 # create function with one "return" operator

@@ -1,6 +1,5 @@
 # Conditional operators: if, else, elif
 # Operators: and, or, not
-# Operator priority
 
 # if
 a = 10
@@ -24,6 +23,7 @@ elif c == 10:
     print('c == 10')
 else:
     print('None of the choices')
+print('--------------------------------')
 
 # Operators: and, or, not
 x = 1
@@ -40,9 +40,9 @@ if x == 1 and (y == 1 or y == 2):
 
 if not x == 2:
     print('x = 1, y = 2')
+print('--------------------------------')
 
-# Operator priority:
-# 1. ( )
-# 2. **
-# 3. *, /
-# 4. +, -
+# ternary operator
+age = 18
+ternary = "Adult" if age >= 18 else "Child"
+print(ternary)
