@@ -23,10 +23,14 @@ for i in range(len(numbers)):
     print('Value in list numbers: ' + str(numbers[i]))
 print('--------------')
 
-# reverse list walks (hard)
-list = [2, 3, 5, 9, 3, 6]
+# reverse variable/list walks (hard)
+for i in range(8, 0, -1):
+    print(i, ' ')
+print('--------------')
+
+list = [10, 20, 30, 40, 50, 60, 70]
 for i in range(len(list) - 1, -1, -1):
-    if list[i] == 5:
+    if list[i] == 4:
         break
     else:
         print(list[i])
