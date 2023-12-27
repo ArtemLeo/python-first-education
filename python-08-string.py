@@ -36,6 +36,7 @@ print()
 
 for i in range(len(text) - 1, -1, -1):  # ! d l r o w   o l l e H
     print(text[i], end=' ')
+print()
 print("--------------------------")
 
 # substring
@@ -48,3 +49,10 @@ print(a.rindex(b, 0, 4))  # what is the last index 'b' in 'a' ? if not = excepti
 print(a.rfind(b))  # what is the last index 'b' in 'a' ? if not = -1
 print(a.startswith(b))  # start of 'a' = 'b'
 print(a.endswith(b))  # finish of 'a' = 'b'
+print("--------------------------")
+
+# upper/lower
+string = 'hello python!'
+print(string.upper())
+print(string.lower())
+print(string.capitalize())
