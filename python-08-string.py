@@ -56,3 +56,23 @@ string = 'hello python!'
 print(string.upper())
 print(string.lower())
 print(string.capitalize())
+print("--------------------------")
+
+# slices
+string_numbers = '0123456789'
+print(string_numbers[1:5])  # 1234
+print(string_numbers[1:])  # 123456789
+print(string_numbers[:-2])  # 01234567
+print(string_numbers[0:8:2])  # 0246
+print(string_numbers[::-1])  # reverse 9876543210
+print("--------------------------")
+
+# int to str
+num = 12345  # 12345
+string_num = str(num)  # '12345'
+print(string_num)
+print("--------------------------")
+
+# input()
+print(input("Enter your text: "))  # input is always = 'str'
+print(int(input("Enter your number: ")))  # so, if you need to get input 'int'
