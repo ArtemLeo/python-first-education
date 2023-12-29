@@ -1,7 +1,7 @@
 # List methods: append, insert, count, reverse, remove, pop
 # List function: len, min, max
 
-list_example = [1, 2, 3, [0, 0, 0], 4, 5]
+list_example = [1, 2, 3, [77, 88, 99], 4, 5]
 print(list_example)
 
 # output by index

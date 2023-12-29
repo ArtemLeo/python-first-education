@@ -73,6 +73,11 @@ string_num = str(num)  # '12345'
 print(string_num)
 print("--------------------------")
 
+# count (quantity of this value in the string)
+number = '10111011011110'
+print(f'Count of 1 in string = {number.count('1')}')
+print('-------------------------')
+
 # input()
 print(input("Enter your text: "))  # input is always = 'str'
 print(int(input("Enter your number: ")))  # so, if you need to get input 'int'
