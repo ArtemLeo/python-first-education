@@ -52,8 +52,10 @@ print('-------------------------')
 
 # sort
 num = [3, 7, 2, 9, 4, 6, 1]
-num.sort()
+num.sort()  # sorting: min -> max
 print(f'sort(): {num}')
+num.sort(reverse=True)  # sorting: max -> min
+print(f'sort(reverse=True): {num}')
 print('-------------------------')
 
 # count (quantity of this value in the list)
@@ -93,12 +95,11 @@ print('Min value: ' + str(min(numbers)))
 print('Max value: ' + str(max(numbers)))
 print('-------------------------')
 
-# math
-math.floor(12.1)  # 12
-math.ceil(12.1)  # 13
-math.trunc(12.1)  # 12
-round(12.1)  # 12
-math.floor(12.1)  # 12
+# import math
+round(12.1)  # 12 -> rounds to the nearest integer (up or down)
+math.floor(12.1)  # 12 -> rounds down (to the nearest smaller integer)
+math.ceil(12.1)  # 13 -> rounds up (to the nearest higher integer)
+math.trunc(12.1)  # 12 -> "cuts off" the fractional part
 
 # multidimensional lists
 multi_list = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
