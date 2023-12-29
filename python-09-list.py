@@ -1,5 +1,6 @@
-# List methods: append, insert, count, reverse, remove, pop
+# List methods: append, insert, count, reverse, remove, pop, sort, index, extend
 # List function: len, min, max
+import math
 
 list_example = [1, 2, 3, [77, 88, 99], 4, 5]
 print(list_example)
@@ -9,9 +10,9 @@ print(list_example[1])
 print(list_example[3][0])
 print('-------------------------')
 
-# list + list
+# list + list / extend([0, 0, 0, 0])
 another_list = list_example + [6, 7, 8, 9]
-print(another_list)
+print(another_list)  # list.extend([6, 7, 8, 9, 0])
 print('-------------------------')
 
 # string
@@ -32,6 +33,10 @@ else:
     print('In')
 print('-------------------------')
 
+# find index of element
+print(f'Index of value 5 in list = {numbers.index(5)}')
+print('-------------------------')
+
 # append (add the value to the end of the list)
 values = []
 values.append('Hello')
@@ -43,6 +48,12 @@ print('-------------------------')
 # insert (add a value to the list by index)
 values.insert(2, 100)
 print('Insert 100 in list: ' + str(values))
+print('-------------------------')
+
+# sort
+num = [3, 7, 2, 9, 4, 6, 1]
+num.sort()
+print(f'sort(): {num}')
 print('-------------------------')
 
 # count (quantity of this value in the list)
@@ -65,6 +76,14 @@ values.pop()
 print('pop = delete last list value ' + str(values))
 print('-------------------------')
 
+# slices
+arr = [1, 2, 3, 4, 5, 6, 7, 8]
+print(arr[2:5])  # it a new list
+print(arr[:])  # create copy of list
+print(arr[1:7:2])  # step in list
+print(arr[::-1])  # reverse list
+print('-------------------------')
+
 # length
 print('List length = ' + str(len(values)))
 print('-------------------------')
@@ -73,6 +92,13 @@ print('-------------------------')
 print('Min value: ' + str(min(numbers)))
 print('Max value: ' + str(max(numbers)))
 print('-------------------------')
+
+# math
+math.floor(12.1)  # 12
+math.ceil(12.1)  # 13
+math.trunc(12.1)  # 12
+round(12.1)  # 12
+math.floor(12.1)  # 12
 
 # multidimensional lists
 multi_list = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
