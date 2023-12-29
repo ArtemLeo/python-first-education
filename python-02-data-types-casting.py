@@ -1,6 +1,6 @@
 # Data types
 # Names types can´t start with a some number
-# Type conversion / Casting: str(), int(), float()
+# Type conversion / Casting: str(), int(), float(), list()
 # isinstance()
 
 a = 5  # int (integer number)
